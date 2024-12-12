@@ -3,6 +3,10 @@
     overflow-x: hidden;
   }
 
+  main {
+    padding: 15px;
+  }
+
   section {
     margin-bottom: 20px;
   }
@@ -18,7 +22,7 @@
     padding: 15px;
     width: 100%;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .about-me,
@@ -57,7 +61,7 @@
   .trips-item {
     flex-direction: column;
     display: flex;
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .trips-item-images {
@@ -93,6 +97,14 @@
   .trips-table ul span {
     color: rgb(255, 139, 241);
     font-size: 25px;
+  }
+
+  ul > li {
+    margin-bottom: 15px;
+  }
+
+  ul li span {
+    font-weight: bold;
   }
 
   .trips-table ol li {
