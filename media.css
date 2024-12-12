@@ -144,6 +144,10 @@
     font-size: 18px;
   }
 
+  .contacts-form {
+    width: 90%;
+  }
+
   .contacts-form h3 {
     margin-top: 20px;
   }
