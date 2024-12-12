@@ -86,8 +86,7 @@
 
   .trips-table ul {
     display: block;
-    margin-bottom: 30px;
-    padding: 50px;
+    padding: 30px;
   }
 
   .trips-table ul li::marker {
@@ -149,6 +148,6 @@
   }
 
   .contacts-form h3 {
-    margin-top: 20px;
+    margin: 0;
   }
 }

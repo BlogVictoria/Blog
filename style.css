@@ -353,6 +353,10 @@ nav a:hover::before {
   margin-bottom: 20px;
 }
 
+.contacts-item a i {
+  padding-right: 5px;
+}
+
 .contacts-form {
   width: 50%;
 }
