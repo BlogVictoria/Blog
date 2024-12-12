@@ -1,111 +1,138 @@
 @media only screen and (max-width: 800px) {
-    html {
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    h2 {
-       font-size: 30px;
-       margin-bottom: 25px;
-    }
+  section {
+    margin-bottom: 20px;
+  }
 
+  h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
 
-    header {
-        flex-direction: column;
-        height: auto;
-        padding: 15px;
-        width: 100%;
-        flex-direction: column; 
-    }
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 
-    .about-me,
-    .trips-item {
-        width: 90%;
-        flex-direction: column;
-    }
+  .about-me,
+  .trips-item {
+    width: 90%;
+    flex-direction: column;
+  }
 
-    .about-me img {
-        margin-bottom: 15px;
-    }
+  .about-me img {
+    margin-bottom: 15px;
+  }
 
-    .about-me p,
-    .trips-item p {
-        font-size: 20px;
-        line-height: 25px;
-        text-align: center;
-        padding-right: 0;
-    }
+  .about-me p,
+  .trips-item p {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding-right: 0;
+  }
 
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 400px;
-        margin: 10px auto;
-    }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    margin: 10px auto;
+  }
 
-    .gallery-item {
-        flex-direction: column;
-    }
+  .gallery-item {
+    flex-direction: column;
+  }
 
-    .gallery-item-text {
-       font-size: 15px; 
-       align-items: center;
-    }
+  .gallery-item-text {
+    font-size: 15px;
+    align-items: center;
+  }
 
-    .trips-item {
-        flex-direction: column;
-        display: flex;
-        padding-bottom: 0;
-    }
+  .trips-item {
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 0;
+  }
 
-    .trips-item-images {
-        margin-top: 20px;
-    }
+  .trips-item-images {
+    margin-top: 20px;
+  }
 
-    .trips-item-images img {
-        width: 150px;
-    }
+  .trips-item-images img {
+    width: 150px;
+  }
 
-    .trips-table table {
-        display: none;
-    }
+  .trips-table {
+    background: linear-gradient(
+      0deg,
+      rgba(255, 139, 241, 0.3763699229691876) 0%,
+      rgba(133, 181, 255, 0.1682466736694678) 100%
+    );
+  }
 
-    .trips-table ul {
-        display: block;
-        margin-bottom: 30px;
-        padding: 50px;
-    }
+  .trips-table table {
+    display: none;
+  }
 
-    .trips-table ul li::marker {
-        color: rgb(190, 127, 250);
-    }
+  .trips-table ul {
+    display: block;
+    margin-bottom: 30px;
+    padding: 50px;
+  }
 
-    .trips-table ul span {
-      color: rgb(255,139,241);
-      font-size: 25px;  
-    }
+  .trips-table ul li::marker {
+    color: rgb(190, 127, 250);
+  }
 
-    .trips-table ol li {
-        color:rgb(255,139,241);
-        font-size: 20px;
-    }
+  .trips-table ul span {
+    color: rgb(255, 139, 241);
+    font-size: 25px;
+  }
 
-    .achivments {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+  .trips-table ol li {
+    color: rgb(255, 139, 241);
+    font-size: 20px;
+  }
 
-    .contacts {
-        flex-direction: column;
-        padding: 50px 15px;  
-    }
+  .achivments {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+  }
 
-    .contacts-text {
-        width: 90%;
-    }
+  .achivments-photo img {
+    max-height: 400px;
+  }
 
-    .contacts-item a {
-        font-size: 18px;
-    }
+  .achivments-item {
+    margin-bottom: 20px;
+  }
 
+  .achivments-item h3 {
+    margin: 20px 0;
+  }
 
+  .contacts {
+    flex-direction: column;
+    padding: 50px 15px;
+  }
+
+  .contacts-text {
+    width: 90%;
+  }
+
+  .contacts-item a {
+    font-size: 18px;
+  }
+
+  .contacts-form h3 {
+    margin-top: 20px;
+  }
 }
